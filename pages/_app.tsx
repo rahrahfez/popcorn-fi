@@ -10,14 +10,4 @@ MyApp({ Component, pageProps }: AppProps) {
   </ChakraProvider>
 )}
 
-const quokkoTest = function (b: number) {
-  let a = 5;
-  console.log(a);
-  return a + b;
-}
-
-const test = quokkoTest(2);
-
-test
-
 export default MyApp
